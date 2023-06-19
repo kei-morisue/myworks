@@ -1,0 +1,77 @@
+.title {
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+
+.name {
+    color: white;
+    font-family: sans-serif;
+    width: 10%;
+}
+
+.model-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slide-area {
+    width: 50%;
+    /* justify-content: space-around; */
+}
+
+.slide-items {
+    height: 30vw;
+}
+
+
+.slide-items img {
+    height: 30vw;
+    max-height: 800px;
+    min-height: 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+    color: white;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    top: 6px;
+    color: white;
+}
+
+.list-all {
+    border: 10px white solid;
+    width: 100%;
+    background-color: darkgray;
+    width: 100%;
+}
+
+.cp-area {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.cp-area svg {
+    height: 30vw;
+}
+
+.cp-area img {
+    height: 100px;
+    width: 100px;
+    line-height: 300px;
+    object-fit: cover;
+}
+
+.console iframe {
+    width: 100%;
+    background-color: darkgray;
+    resize: none;
+    font-family: monospace
+}
